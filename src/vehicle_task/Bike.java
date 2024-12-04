@@ -10,4 +10,9 @@ public class Bike implements IVehicle {
     public void stopEngine() {
         System.out.println("Bike is stopped");
     }
+
+    @Override
+    public String getFuelType() {
+        return "Dizel ile isleyir !";
+    }
 }
