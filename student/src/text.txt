@@ -1,6 +1,7 @@
 classlar :
-Student, Course, Operation, Main, enum Subject
-Student: StudentId ve StudentName
-Course: CourseName ve List tipinden Telebeler
-Course Methodlar - telebelerin add olunmasi ve Umumi telebelerin siyahisini gosderen
-Methodlar, remove ,isExist, isNotExist methodlar  olacaq.
+Student(+), Course(+), Main(+), Operation(-), enum Subject(-)
+Student - StudentId ve StudentName (+)
+Course : CourseName ve List tipinden Telebeler (+)
+Course ,Student ,Operation Methodlar - telebelerin add olunmasi ve umumi telebelerin siyahisini
+gosderen Methodlar(+), remove (+),isExist(+), isNotExist(-) methodlar  olacaq.
+Kursa telebe elave etmek+silmek(+),telebenin kurs siyahisina kurs elave etmek ve silmek(_)
