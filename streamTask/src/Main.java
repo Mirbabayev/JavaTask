@@ -65,7 +65,7 @@ public class Main {
         t.stream()
                 .filter(f -> f.doubleValue() > 0)
                 .map(f -> f.doubleValue() * 2)
-                .filter(f->f.doubleValue()>10)
+                .filter(f->f.doubleValue()>5)
                 .forEach(f-> System.out.println(f));
     }
 }
